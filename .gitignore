@@ -1,0 +1,55 @@
+# =====================
+# Python 缓存与环境
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.env
+.venv
+env/
+venv/
+*.ipynb_checkpoints/
+
+# =====================
+# VSCode / IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+
+# =====================
+# 数据/模型输出
+# =====================
+logs/
+runs/
+output/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# =====================
+# WandB
+# =====================
+wandb/
+wandb-debug.log
+wandb-metadata.json
+
+# =====================
+# YAML 或本地配置
+# =====================
+config/*.yaml
+!config/baseline/*.yaml  # 只保留 baseline 下的 yaml 配置
+
+# =====================
+# 操作系统生成
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Word/报告文件（可选忽略）
+# =====================
+*.docx
+*.pdf
